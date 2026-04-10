@@ -42,6 +42,7 @@ _Last updated: 2026-04-10 15:37 UTC_
 ### Configure Monitored Orgs/Users
 
 ```bash
+# add user/orgs
 vim config.yml
 ```
 
