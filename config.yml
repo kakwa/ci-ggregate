@@ -1,0 +1,12 @@
+# ci-ggregate configuration
+# List of GitHub users/orgs whose repositories should be scanned for CI badges.
+#
+# type: 'user' for personal accounts, 'org' for organizations
+# skip_archived: skip archived repositories (default: true)
+# skip_forks: skip forked repositories (default: true)
+
+targets:
+  - owner: kakwa
+    type: user
+  - owner: wows-tools
+    type: org

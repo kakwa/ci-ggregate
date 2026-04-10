@@ -1,0 +1,49 @@
+name: Update CI Badges
+
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'config.yml'
+      - 'update_badges.py'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Scan repos and update README
+        run: python update_badges.py
+        env:
+          # GH_TOKEN must be a Personal Access Token (classic or fine-grained)
+          # with `repo` (read) scope — stored as a repository secret named GH_TOKEN.
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Commit and push if README changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes — README is already up to date."
+          else
+            git commit -m "chore: update CI badges [skip ci]"
+            git push
+          fi
