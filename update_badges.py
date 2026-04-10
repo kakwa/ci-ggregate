@@ -92,8 +92,9 @@ def get_workflows(owner, repo, token=None):
 
 def make_badge(owner, repo, workflow_path, workflow_name):
     """Return the markdown for a single GitHub Actions status badge."""
-    filename = workflow_path.split("/")[-1]
-    wf_url = f"https://github.com/{owner}/{repo}/actions/workflows/{filename}"
+    prefix = ".github/workflows/"
+    wf_id = workflow_path[len(prefix):] if workflow_path.startswith(prefix) else workflow_path
+    wf_url = f"https://github.com/{owner}/{repo}/actions/workflows/{wf_id}"
     badge_url = f"{wf_url}/badge.svg"
     return f"[![{workflow_name}]({badge_url})]({wf_url})"
 
