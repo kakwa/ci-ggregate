@@ -5,12 +5,13 @@ Aggregate the CI status/badges of automatically every 6 hours.
 ## CI Status
 
 <!-- CI_BADGES_START -->
-_Last updated: 2026-11-13 13:31 UTC_
+_Last updated: 2026-11-13 22:58 UTC_
 
 | Repository | CI Status |
 |:-----------|:----------|
 | [kakwa/arte-rss-subfeeds](https://github.com/kakwa/arte-rss-subfeeds) | [![CI](https://github.com/kakwa/arte-rss-subfeeds/actions/workflows/ci.yml/badge.svg)](https://github.com/kakwa/arte-rss-subfeeds/actions/workflows/ci.yml) |
 | [kakwa/ci-ggregate](https://github.com/kakwa/ci-ggregate) | [![Update CI Badges](https://github.com/kakwa/ci-ggregate/actions/workflows/update-readme.yml/badge.svg)](https://github.com/kakwa/ci-ggregate/actions/workflows/update-readme.yml) |
+| [kakwa/cosmic-pkg](https://github.com/kakwa/cosmic-pkg) | [![Tests](https://github.com/kakwa/cosmic-pkg/actions/workflows/build-test.yml/badge.svg)](https://github.com/kakwa/cosmic-pkg/actions/workflows/build-test.yml) [![Documentation](https://github.com/kakwa/cosmic-pkg/actions/workflows/docs.yml/badge.svg)](https://github.com/kakwa/cosmic-pkg/actions/workflows/docs.yml) [![Build Repositories](https://github.com/kakwa/cosmic-pkg/actions/workflows/repos.yml/badge.svg)](https://github.com/kakwa/cosmic-pkg/actions/workflows/repos.yml) [![Check CVEs on NVD](https://github.com/kakwa/cosmic-pkg/actions/workflows/vulncheck.yml/badge.svg)](https://github.com/kakwa/cosmic-pkg/actions/workflows/vulncheck.yml) |
 | [kakwa/cpe-search](https://github.com/kakwa/cpe-search) | [![CPE DB Update](https://github.com/kakwa/cpe-search/actions/workflows/publish.yml/badge.svg)](https://github.com/kakwa/cpe-search/actions/workflows/publish.yml) |
 | [kakwa/debian-rpm-build-tools](https://github.com/kakwa/debian-rpm-build-tools) | [![Tests](https://github.com/kakwa/debian-rpm-build-tools/actions/workflows/build-test.yml/badge.svg)](https://github.com/kakwa/debian-rpm-build-tools/actions/workflows/build-test.yml) [![Documentation](https://github.com/kakwa/debian-rpm-build-tools/actions/workflows/docs.yml/badge.svg)](https://github.com/kakwa/debian-rpm-build-tools/actions/workflows/docs.yml) [![Build Repositories](https://github.com/kakwa/debian-rpm-build-tools/actions/workflows/repos.yml/badge.svg)](https://github.com/kakwa/debian-rpm-build-tools/actions/workflows/repos.yml) [![Check CVEs on NVD](https://github.com/kakwa/debian-rpm-build-tools/actions/workflows/vulncheck.yml/badge.svg)](https://github.com/kakwa/debian-rpm-build-tools/actions/workflows/vulncheck.yml) |
 | [kakwa/dnscherry](https://github.com/kakwa/dnscherry) | [![Tests](https://github.com/kakwa/dnscherry/actions/workflows/tests.yml/badge.svg)](https://github.com/kakwa/dnscherry/actions/workflows/tests.yml) |
