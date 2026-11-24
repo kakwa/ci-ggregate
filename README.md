@@ -5,7 +5,7 @@ Aggregate the CI status/badges of automatically every 6 hours.
 ## CI Status
 
 <!-- CI_BADGES_START -->
-_Last updated: 2026-11-23 16:40 UTC_
+_Last updated: 2026-11-24 03:31 UTC_
 
 | Repository | CI Status |
 |:-----------|:----------|
@@ -32,6 +32,7 @@ _Last updated: 2026-11-23 16:40 UTC_
 | [kakwa/rsyslog-splunk-plugin](https://github.com/kakwa/rsyslog-splunk-plugin) | [![CI](https://github.com/kakwa/rsyslog-splunk-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/kakwa/rsyslog-splunk-plugin/actions/workflows/ci.yml) |
 | [kakwa/slack-discord-misc-pkg](https://github.com/kakwa/slack-discord-misc-pkg) | [![Build Repositories](https://github.com/kakwa/slack-discord-misc-pkg/actions/workflows/repos.yml/badge.svg)](https://github.com/kakwa/slack-discord-misc-pkg/actions/workflows/repos.yml) |
 | [kakwa/stars](https://github.com/kakwa/stars) | [![update awesome-stars](https://github.com/kakwa/stars/actions/workflows/stars.yml/badge.svg)](https://github.com/kakwa/stars/actions/workflows/stars.yml) |
+| [kakwa/strangle](https://github.com/kakwa/strangle) | [![CI](https://github.com/kakwa/strangle/actions/workflows/ci.yml/badge.svg)](https://github.com/kakwa/strangle/actions/workflows/ci.yml) |
 | [kakwa/technically](https://github.com/kakwa/technically) | [![Build and Publish](https://github.com/kakwa/technically/actions/workflows/hugo.yml/badge.svg)](https://github.com/kakwa/technically/actions/workflows/hugo.yml) [![pages-build-deployment](https://github.com/kakwa/technically/actions/workflows/dynamic/pages/pages-build-deployment/badge.svg)](https://github.com/kakwa/technically/actions/workflows/dynamic/pages/pages-build-deployment) |
 | [kakwa/uts-server](https://github.com/kakwa/uts-server) | [![Build](https://github.com/kakwa/uts-server/actions/workflows/build.yml/badge.svg)](https://github.com/kakwa/uts-server/actions/workflows/build.yml) [![pages-build-deployment](https://github.com/kakwa/uts-server/actions/workflows/dynamic/pages/pages-build-deployment/badge.svg)](https://github.com/kakwa/uts-server/actions/workflows/dynamic/pages/pages-build-deployment) |
 | [kakwa/whim-proxy](https://github.com/kakwa/whim-proxy) | [![CI](https://github.com/kakwa/whim-proxy/actions/workflows/ci.yml/badge.svg)](https://github.com/kakwa/whim-proxy/actions/workflows/ci.yml) |
